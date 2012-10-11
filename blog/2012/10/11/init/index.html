@@ -7,8 +7,7 @@
 
   <meta name="author" content="dearuca">
   
-  <meta name="description" content=" Octopressで開設してみた 2012.10.11(Thu) themeはcompbitsにしてみたけど、言語が&#8221;zh-cn&#8221;(中国語)になっちゃった。うーん
-https://github.com/iwinux/compbits Tweet ">
+  <meta name="description" content="Octopressで開設してみた 2012.10.11(Thu) themeはcompbitsにしてみたけど、言語が&#8221;zh-cn&#8221;(中国語)になっちゃった。うーん https://github.com/iwinux/compbits 仕方ないので、.theme/ &hellip;">
   
   
 
@@ -31,6 +30,10 @@ https://github.com/iwinux/compbits Tweet ">
     <li><a class="feed" href="/atom.xml" title="RSS">RSS</a></li>
   
   
+    <li><a class="twitter" href="http://twitter.com/dearuca" title="Twitter">Twitter</a></li>
+  
+  
+    <li> <a class="github" href="https://github.com/dearuca" title="GitHub">GitHub</a> </li>
   
 </ul>
 <div class="clear"></div>
@@ -63,8 +66,23 @@ https://github.com/iwinux/compbits Tweet ">
 <time datetime="2012-10-11T21:56:00+09:00" pubdate data-updated="true">2012.10.11(Thu)</time>
 </div>
 
-<div class="post-content"><p>themeはcompbitsにしてみたけど、言語が&#8221;zh-cn&#8221;(中国語)になっちゃった。うーん
-https://github.com/iwinux/compbits</p>
+<div class="post-content"><p>themeはcompbitsにしてみたけど、言語が&#8221;zh-cn&#8221;(中国語)になっちゃった。うーん</p>
+
+<p><a href="https://github.com/iwinux/compbits">https://github.com/iwinux/compbits</a></p>
+
+<p>仕方ないので、.theme/compbits配下のテンプレートを直接修正することにしました。</p>
+
+<h3>.themes/compbits/source/_layouts/base.html</h3>
+
+<p>lang=&#8221;zh-cn&#8221;をlang=&#8221;ja&#8221;に書き換え</p>
+
+<h3>.themes/compbits/source/_includes/footer.html</h3>
+
+<p>ライセンス文言も中国語で直接記述されちゃってたので、なんとなくな日本語で書き直し</p>
+
+<h3>.themes/compbits/sass/partials/_base.sass</h3>
+
+<p>中国語フォントが直接指定されていたので、$blueprint-font-family: Helvetica, Arial, sans-serifみたいに削除った</p>
 </div>
 
 
@@ -76,7 +94,7 @@ https://github.com/iwinux/compbits</p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://dearuca.github.com/blog/2012/10/11/init/" data-via="" data-counturl="http://dearuca.github.com/blog/2012/10/11/init/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://dearuca.github.com/blog/2012/10/11/init/" data-via="dearuca" data-counturl="http://dearuca.github.com/blog/2012/10/11/init/" >Tweet</a>
   
   
   

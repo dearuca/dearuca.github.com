@@ -4,7 +4,7 @@
   <title><![CDATA[技術ブログであるか]]></title>
   <link href="http://dearuca.github.com/feed" rel="self"/>
   <link href="http://dearuca.github.com/"/>
-  <updated>2012-10-11T22:15:50+09:00</updated>
+  <updated>2012-10-11T22:29:49+09:00</updated>
   <id>http://dearuca.github.com/</id>
   <author>
     <name><![CDATA[dearuca]]></name>
@@ -18,8 +18,23 @@
     <link href="http://dearuca.github.com/blog/2012/10/11/init/"/>
     <updated>2012-10-11T21:56:00+09:00</updated>
     <id>http://dearuca.github.com/blog/2012/10/11/init</id>
-    <content type="html"><![CDATA[<p>themeはcompbitsにしてみたけど、言語が&#8221;zh-cn&#8221;(中国語)になっちゃった。うーん
-https://github.com/iwinux/compbits</p>
+    <content type="html"><![CDATA[<p>themeはcompbitsにしてみたけど、言語が&#8221;zh-cn&#8221;(中国語)になっちゃった。うーん</p>
+
+<p><a href="https://github.com/iwinux/compbits">https://github.com/iwinux/compbits</a></p>
+
+<p>仕方ないので、.theme/compbits配下のテンプレートを直接修正することにしました。</p>
+
+<h3>.themes/compbits/source/_layouts/base.html</h3>
+
+<p>lang=&#8221;zh-cn&#8221;をlang=&#8221;ja&#8221;に書き換え</p>
+
+<h3>.themes/compbits/source/_includes/footer.html</h3>
+
+<p>ライセンス文言も中国語で直接記述されちゃってたので、なんとなくな日本語で書き直し</p>
+
+<h3>.themes/compbits/sass/partials/_base.sass</h3>
+
+<p>中国語フォントが直接指定されていたので、$blueprint-font-family: Helvetica, Arial, sans-serifみたいに削除った</p>
 ]]></content>
   </entry>
   
