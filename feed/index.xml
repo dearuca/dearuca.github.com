@@ -4,7 +4,7 @@
   <title><![CDATA[技術ブログであるか]]></title>
   <link href="http://dearuca.github.com/feed" rel="self"/>
   <link href="http://dearuca.github.com/"/>
-  <updated>2012-10-11T22:54:31+09:00</updated>
+  <updated>2012-10-11T22:56:15+09:00</updated>
   <id>http://dearuca.github.com/</id>
   <author>
     <name><![CDATA[dearuca]]></name>
@@ -40,9 +40,12 @@
 
 <h4>テンプレを修正したら</h4>
 
-<p>$ rake install[&#8216;compbits&#8217;]</p>
+<p>$ rake install[&#8216;compbits&#8217;]
+$ rake gen_deploy</p>
 
 <h4>新しい投稿の作成</h4>
+
+<p>$ rake post</p>
 
 <h4>編集</h4>
 
