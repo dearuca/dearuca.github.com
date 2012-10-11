@@ -4,7 +4,7 @@
   <title><![CDATA[技術ブログであるか]]></title>
   <link href="http://dearuca.github.com/atom.xml" rel="self"/>
   <link href="http://dearuca.github.com/"/>
-  <updated>2012-10-11T22:53:48+09:00</updated>
+  <updated>2012-10-11T22:54:31+09:00</updated>
   <id>http://dearuca.github.com/</id>
   <author>
     <name><![CDATA[dearuca]]></name>
@@ -37,6 +37,10 @@
 <p>中国語フォントが直接指定されていたので、$blueprint-font-family: Helvetica, Arial, sans-serifみたいに削除った</p>
 
 <h2>あと適当なメモ</h2>
+
+<h4>テンプレを修正したら</h4>
+
+<p>$ rake install[&#8216;compbits&#8217;]</p>
 
 <h4>新しい投稿の作成</h4>
 
