@@ -7,7 +7,8 @@
 
   <meta name="author" content="dearuca">
   
-  <meta name="description" content="Octopressで開設してみた 2012.10.11(Thu) themeはcompbitsにしてみたけど、言語が&#8221;zh-cn&#8221;(中国語)になっちゃった。うーん https://github.com/iwinux/compbits 仕方ないので、.theme/ &hellip;">
+  <meta name="description" content="Octopressで開設してみた 2012.10.11(Thu) themeはcompbitsにしてみたけど、言語が &#8220;zh-cn&#8221; (中国語)になっちゃった。うーん・・。
+仕方ないので、.theme/compbits配下のテンプレートを直接修正することにしました。 (1 &hellip;">
   
   
 
@@ -66,23 +67,20 @@
 <time datetime="2012-10-11T21:56:00+09:00" pubdate data-updated="true">2012.10.11(Thu)</time>
 </div>
 
-<div class="post-content"><p>themeはcompbitsにしてみたけど、言語が&#8221;zh-cn&#8221;(中国語)になっちゃった。うーん</p>
+<div class="post-content"><p>themeは<a href="https://github.com/iwinux/compbits">compbits</a>にしてみたけど、言語が &#8220;zh-cn&#8221; (中国語)になっちゃった。うーん・・。
+仕方ないので、.theme/compbits配下のテンプレートを直接修正することにしました。</p>
 
-<p><a href="https://github.com/iwinux/compbits">https://github.com/iwinux/compbits</a></p>
-
-<p>仕方ないので、.theme/compbits配下のテンプレートを直接修正することにしました。</p>
-
-<h3>言語の指定</h3>
+<h3>(1)言語の指定</h3>
 
 <p>ファイル：.themes/compbits/source/_layouts/base.html
 lang=&#8221;zh-cn&#8221;をlang=&#8221;ja&#8221;に書き換え</p>
 
-<h3>ライセンス文言の修正</h3>
+<h3>(2)ライセンス文言の修正</h3>
 
 <p>ファイル：.themes/compbits/source/_includes/footer.html
 ライセンス文言も中国語で直接記述されちゃってたので、なんとなくな日本語で書き直し</p>
 
-<h3>フォントの修正</h3>
+<h3>(3)フォントの修正</h3>
 
 <p>ファイル：.themes/compbits/sass/partials/_base.sass
 中国語フォントが直接指定されていたので、$blueprint-font-family: Helvetica, Arial, sans-serifみたいに削除った</p>
@@ -105,13 +103,11 @@ lang=&#8221;zh-cn&#8221;をlang=&#8221;ja&#8221;に書き換え</p>
 <span class='line-number'>4</span>
 <span class='line-number'>5</span>
 <span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake post 
-</span><span class='line'>$ rake new_post["投稿テスト"]
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake new_post["post_title"]
 </span><span class='line'>〜postファイルを修正〜
 </span><span class='line'>$ rake gen_deploy
 </span><span class='line'>$ git add .
-</span><span class='line'>$ git commit -m "blog更新"
+</span><span class='line'>$ git commit -m "update message"
 </span><span class='line'>$ git push origin source</span></code></pre></td></tr></table></div></figure>
 
 </div>
