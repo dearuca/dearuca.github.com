@@ -4,7 +4,7 @@
   <title><![CDATA[技術ブログであるか]]></title>
   <link href="http://dearuca.github.com/atom.xml" rel="self"/>
   <link href="http://dearuca.github.com/"/>
-  <updated>2012-10-11T21:55:30+09:00</updated>
+  <updated>2012-10-11T21:59:51+09:00</updated>
   <id>http://dearuca.github.com/</id>
   <author>
     <name><![CDATA[dearuca]]></name>
@@ -12,5 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopressで開設してみた]]></title>
+    <link href="http://dearuca.github.com/blog/2012/10/11/init/"/>
+    <updated>2012-10-11T21:56:00+09:00</updated>
+    <id>http://dearuca.github.com/blog/2012/10/11/init</id>
+    <content type="html"><![CDATA[<p>themeはcompbitsにしてみたけど、言語が&#8221;zh-cn&#8221;(中国語)になっちゃった。うーん
+https://github.com/iwinux/compbits</p>
+]]></content>
+  </entry>
   
 </feed>

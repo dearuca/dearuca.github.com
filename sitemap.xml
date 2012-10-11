@@ -1,8 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://dearuca.github.com/blog/2012/10/11/init/</loc>
+        <lastmod>2012-10-11T21:58:55+09:00</lastmod>
+    </url>
+    <url>
         <loc>http://dearuca.github.com/blog/archives/</loc>
-        <lastmod>2012-10-11T21:48:59+09:00</lastmod>
+        <lastmod>2012-10-11T21:58:55+09:00</lastmod>
     </url>
     <url>
         <loc>http://dearuca.github.com/feed/index.xml</loc>
@@ -10,6 +14,6 @@
     </url>
     <url>
         <loc>http://dearuca.github.com/</loc>
-        <lastmod>2012-10-11T21:48:59+09:00</lastmod>
+        <lastmod>2012-10-11T21:58:55+09:00</lastmod>
     </url>
 </urlset>
