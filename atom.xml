@@ -4,7 +4,7 @@
   <title><![CDATA[技術ブログであるか]]></title>
   <link href="http://dearuca.github.com/atom.xml" rel="self"/>
   <link href="http://dearuca.github.com/"/>
-  <updated>2012-10-11T22:58:44+09:00</updated>
+  <updated>2012-10-11T23:19:37+09:00</updated>
   <id>http://dearuca.github.com/</id>
   <author>
     <name><![CDATA[dearuca]]></name>
@@ -24,17 +24,20 @@
 
 <p>仕方ないので、.theme/compbits配下のテンプレートを直接修正することにしました。</p>
 
-<h3>.themes/compbits/source/_layouts/base.html</h3>
+<h3>言語の指定</h3>
 
-<p>lang=&#8221;zh-cn&#8221;をlang=&#8221;ja&#8221;に書き換え</p>
+<p>ファイル：.themes/compbits/source/_layouts/base.html
+lang=&#8221;zh-cn&#8221;をlang=&#8221;ja&#8221;に書き換え</p>
 
-<h3>.themes/compbits/source/_includes/footer.html</h3>
+<h3>ライセンス文言の修正</h3>
 
-<p>ライセンス文言も中国語で直接記述されちゃってたので、なんとなくな日本語で書き直し</p>
+<p>ファイル：.themes/compbits/source/_includes/footer.html
+ライセンス文言も中国語で直接記述されちゃってたので、なんとなくな日本語で書き直し</p>
 
-<h3>.themes/compbits/sass/partials/_base.sass</h3>
+<h3>フォントの修正</h3>
 
-<p>中国語フォントが直接指定されていたので、$blueprint-font-family: Helvetica, Arial, sans-serifみたいに削除った</p>
+<p>ファイル：.themes/compbits/sass/partials/_base.sass
+中国語フォントが直接指定されていたので、$blueprint-font-family: Helvetica, Arial, sans-serifみたいに削除った</p>
 
 <h2>あと適当なメモ</h2>
 
