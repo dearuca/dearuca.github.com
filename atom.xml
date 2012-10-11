@@ -4,7 +4,7 @@
   <title><![CDATA[技術ブログであるか]]></title>
   <link href="http://dearuca.github.com/atom.xml" rel="self"/>
   <link href="http://dearuca.github.com/"/>
-  <updated>2012-10-11T22:56:15+09:00</updated>
+  <updated>2012-10-11T22:58:44+09:00</updated>
   <id>http://dearuca.github.com/</id>
   <author>
     <name><![CDATA[dearuca]]></name>
@@ -40,16 +40,29 @@
 
 <h4>テンプレを修正したら</h4>
 
-<p>$ rake install[&#8216;compbits&#8217;]
-$ rake gen_deploy</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake install['compbits']
+</span><span class='line'>$ rake gen_deploy</span></code></pre></td></tr></table></div></figure>
+
 
 <h4>新しい投稿の作成</h4>
 
-<p>$ rake post</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake post 
+</span><span class='line'>$ rake new_post["投稿テスト"]
+</span><span class='line'>〜postファイルを修正〜
+</span><span class='line'>$ rake gen_deploy
+</span><span class='line'>$ git add .
+</span><span class='line'>$ git commit -m "blog更新"
+</span><span class='line'>$ git push origin source</span></code></pre></td></tr></table></div></figure>
 
-<h4>編集</h4>
-
-<h4>プッシュ</h4>
 ]]></content>
   </entry>
   
